@@ -126,7 +126,7 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  column-gap: 16px;
+  gap: 16px;
 }
 
 .introduccion img {
@@ -140,7 +140,7 @@ article {
   align-items: center;
   flex-direction: column;
   gap: 1.5rem;
-
+  flex-wrap: wrap;
   margin: 3rem 0;
 }
 
@@ -216,4 +216,13 @@ footer {
 footer ul {
   margin: 5px 0;
   list-style: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 500px) {
+  .introduccion .text-img {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
 }
