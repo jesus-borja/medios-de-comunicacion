@@ -173,6 +173,10 @@ article ul {
   margin: 10px 0;
 }
 
+div#velocidad > div.card.panel {
+  margin: 2rem 0;
+}
+
 table {
   border: 1px solid #555;
   border-collapse: collapse;
