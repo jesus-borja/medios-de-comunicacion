@@ -4,11 +4,11 @@
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-  --text: hsl(43, 90%, 96%);
+  --text: hsl(0, 0%, 96%);
   --background: hsl(264, 100%, 2%);
-  --primary: hwb(31 0% 0%);
-  --secondary: #291f00;
-  --accent: hsl(18, 93%, 58%);
+  --primary: hsl(219, 84%, 26%);
+  --secondary: hsl(218, 80%, 8%);
+  --accent: hsl(219, 80%, 48%);
 
   --panel: hsla(0, 0%, 100%, 0.063);
 }
