@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medios Físicos de comunicación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="img/ITP.png" alt="Logo del Instituto Tecnológico de Pachuca">
+                </a>
+            </li>
+            <li class="panel"><a href="#introduccion">Introducción</a></li>
+            <li class="panel"><a href="#clasificacion">Clasificación</a></li>
+            <li class="panel"><a href="#velocidad">Velocidad de Transmisión</a></li>
+            <li class="panel"><a href="#sentido">Según su sentido</a></li>
+            <li class="panel"><a href="#referencias">Referencias</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="integrantes">
+            <h1>Equipo 7</h1>
+            <h2>Integrantes</h2>
+            <ul>
+                <li>Barrios Yáñez Angel Rodrigo</li>
+                <li>Borja Hernández Jesús</li>
+                <li>Ochoa Gonzales Jonathan Emir</li>
+                <li>Samperio Maldonado Erick Natanael</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <article id="introduccion" class="introduccion">
+            <h1>Introducción</h1>
+            <div class="text-img">
+                <div>
+                    <h2>¿Qué es un canal de comunicación?</h2>
+                    <p>
+                        Es el medio físico por el que que se lleva a cabo el intercambio de información entre un emisor
+                        y uno o varios receptores.
+                        Este medio de comunicación puede ser un par de alambres, un cable coaxial o hasta el aire mismo.
+                        Pero sin importar el tipo, todos los medios de transmisión se caracterizan por la atenuación, el
+                        ruido, la interferencia, el desvanecimiento y otros elementos que impiden que la señal se
+                        propague libremente por el medio; son factores que hay que contrarrestar al momento de
+                        transmitir cualquier información al canal.
+                    </p>
+
+                    <h2>¿Qué es la información?</h2>
+                    <p>
+                        La información es un patrón físico al cual se le ha asignado un significado comúnmente acordado.
+                        El patrón debe ser único, separado y distinto, capaz de ser enviado por un transmisor y de ser
+                        detectado y entendido por un receptor. Así, la información es transmitida a través de señales
+                        eléctricas u ópticas utilizando un canal de comunicación o medio de transmisión.
+                    </p>
+                </div>
+                <img src="./img/comunicacion.png" alt="">
+            </div>
+        </article>
+        <article id="clasificacion">
+            <h1>Clasificación</h1>
+            <div class="card-container">
+                <div class="card panel">
+                    <h2>Medios Guiados</h2>
+                    <p>
+                        Son aquellos que utilizan unos componentes físicos y sólidos para la transmisión de datos.
+                        También conocidos como medios de transmisión por cable o alámbricos.
+                    </p>
+                    <ul>
+                        <li><b>Alambre: </b>Fue el primer medio usado. Fue utilizado para el funcionamiento del
+                            telégrafo.</li>
+                        <li><b>Fibra Ópticas: </b>Es el mejor medio físico disponible gracias a su velocidad y su ancho
+                            de banda, sin embargo, su costo es elevado.</li>
+                        <li><b>Par Trenzado: </b>Gracias a su bajo costo y fácil instalación es el medio más usado.</li>
+                        <li><b>Coaxial: </b>Fue muy utilizado, pero presentaba problemas al tratar de realizar uniones.
+                        </li>
+                    </ul>
+                    <center>
+                        <img src="./img/coaxial.jpg" alt="">
+                        <img src="./img/par-trenzado.webp" alt="">
+                        <img src="./img/fibra-optica.jpg" alt="">
+                    </center>
+                </div>
+                <div class="card panel">
+                    <h2>Medios NO Guiados</h2>
+                    <p>
+                        Los medios no guiados o inalámbricos han tenido gran acogida al ser un buen medio de cubrir
+                        grandes distancias y hacia cualquier dirección, su mayor logro se dio desde la conquista
+                        espacial a través de los satélites y su tecnología no para de cambiar. De manera general podemos
+                        definir las siguientes características de este tipo de medios: La transmisión y recepción se
+                        realiza por medio de antenas, las cuales deben estar alineadas cuando la transmisión es
+                        direccional, o si es omnidireccional la señal se propaga en todas las direcciones.
+                    </p>
+                    <ul>
+                        <li><b>Infrarrojos: </b>Funcionan de manera similar a la fibra óptica, pero su medio es el aire.
+                            Es ideal para distancias cortas, hasta 2km.</li>
+                        <li><b>Microondas: </b>Utilizan ondas electromágneticas de alta frecuencia para transmitir
+                            información a larga
+                            distancia.</li>
+                        <li><b>Sátelite: </b>Ofrece cobertura global y resulta esencial para sistemas como el GPS, pero
+                            tiene problemas de latencia, interferencia y altos costos de infraestructura.
+                        </li>
+                        <li><b>Ondas Cortas: </b>También llamadas radio de alta frecuencia, pueden transmitir a grandes
+                            distancias con poca potencia, sin embargo, son menos fiables que otras ondas.
+                        </li>
+                        <li><b>Ondas de Luz: </b>Son las ondas usadas por la fibra óptica que viajan a través del
+                            conducto de vidrio que poseen.
+                        </li>
+                    </ul>
+                    <center>
+                        <img src="./img/infrarrojo.jpg" alt="">
+                        <img src="img/microondas.jpg" alt="">
+                        <img src="img/satelite.jpg" alt="">
+                        <img src="img/onda-corta.jpg" alt="">
+                    </center>
+                </div>
+            </div>
+
+            <div id="velocidad" class="card panel">
+                <h2>Velocidad de los medios guiados</h2>
+                <table>
+                    <tr>
+                        <th>Medio de transmisión</th>
+                        <th>Razón de datos total</th>
+                        <th>Ancho de Banda</th>
+                        <th>Separación entre repetidores</th>
+                    </tr>
+                    <tr>
+                        <td>Par trenzado</td>
+                        <td>4 Mbps</td>
+                        <td>3MHz</td>
+                        <td>2 a 10km</td>
+                    </tr>
+                    <tr>
+                        <td>Cable Coaxial</td>
+                        <td>500 Mbps</td>
+                        <td>350MHz</td>
+                        <td>1 a 10km</td>
+                    </tr>
+                    <tr>
+                        <td>Fibra óptica</td>
+                        <td>2Gbps</td>
+                        <td>2GHz</td>
+                        <td>10 a 100km</td>
+                    </tr>
+                </table>
+
+            </div>
+        </article>
+
+        <article id="sentido">
+            <h1>Transmisión según su sentido</h1>
+            <div class="card-container">
+                <div class="card panel">
+                    <h2>Símplex</h2>
+                    <p>
+                        Este modo de transmisión permite que la información discurra en un solo sentido y de forma
+                        permanente. Con esta fórmula es difícil la corrección de errores causados por deficiencias de
+                        línea (por ejemplo, la señal de televisión).
+                    </p>
+                    <center>
+                        <img src="img/radio.jpg" alt="">
+                        <p>Un ejemplo es la radio o televisión</p>
+                    </center>
+                </div>
+                <div class="card panel pael">
+                    <h2>Semi-Dúplex</h2>
+                    <p>
+                        En este modo la transmisión fluye en los dos sentidos, pero no simultáneamente, solo una de las
+                        dos estaciones del enlace punto a punto puede transmitir. Este método también se denomina en dos
+                        sentidos alternos o símplex alternativo.
+                    </p>
+                    <center><img src="img/semi-duplex.webp" alt=""></center>
+
+                </div>
+                <div class="card panel">
+                    <h2>Dúplex</h2>
+                    <p>
+                        Es el método de comunicación más aconsejable puesto que en todo momento la comunicación puede
+                        ser en dos sentidos posibles, es decir, que las dos estaciones simultáneamente pueden enviar y
+                        recibir datos y así pueden corregir los errores de manera instantánea y permanente (p. ej., el
+                        teléfono).
+                    </p>
+                    <center><img src="img/duplex.webp" alt=""></center>
+                </div>
+            </div>
+        </article>
+        <article>
+            <h1 id="referencias">Referencias</h1>
+            <div class="card panel">
+                <ul>
+                    <li>
+                        Canal de comunicación - concepto, tipos, función y ejemplos. (s. f.). Concepto.
+                        <a
+                            href="https://concepto.de/canal-de-comunicacion/">https://concepto.de/canal-de-comunicacion/</a>
+                    </li>
+                    <li>
+                        Medios guiados y no guiados. (2013, 6 abril). CURSO BASICO DE REDES DE COMPUTADORAS.
+                        <a
+                            href="https://cursobasicodeadministracionderedes.wordpress.com/unidad-1/medios-guiados-y-no-guiados/">https://cursobasicodeadministracionderedes.wordpress.com/unidad-1/medios-guiados-y-no-guiados/</a>
+
+                    </li>
+                    <li>Medios transmision. (s. f.). https://neo.lcc.uma.es/evirtual/cdd/tutorial/fisico/Mtransm.html
+                    </li>
+                    <li>Modo de transmisión según su sentido (Señales). (2017, 19 febrero). Mundo Informatico.
+                        <a
+                            href="https://mediosdetransmisionweb.wordpress.com/modo-de-transmision-segun-su-sentido/">https://mediosdetransmisionweb.wordpress.com/modo-de-transmision-segun-su-sentido/</a>
+
+                    </li>
+                    <li>Unknown. (s. f.). Medios físicos de comunicacion.
+                        <a
+                            href="https://mediofisico.blogspot.com/2015/10/medios-fisicos-de-comunicacion.html">https://mediofisico.blogspot.com/2015/10/medios-fisicos-de-comunicacion.html</a>
+
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </main>
+    <footer class="panel">
+        <h3>Fundamentos de Telecomunicaciones</h3>
+        <p>Docente: Salvador Martínez Pagola</p>
+        <table class="f-integrantes">
+            <tr>
+                <td>Barrios Yáñez Angel Rodrigo</td>
+                <td>21200581</td>
+            </tr>
+            <tr>
+                <td>Borja Hernández Jesús</td>
+                <td>21200584</td>
+            </tr>
+            <tr>
+                <td>Ochoa González Jonathan Emir</td>
+                <td>21200988</td>
+            </tr>
+            <tr>
+                <td>Samperio Maldonado Erick Natanael</td>
+                <td>212200628</td>
+            </tr>
+        </table>
+
+        <p>Instituto Tecnológico de Pachuca</p>
+        <p>Tecnológico Nacional de México</p>
+    </footer>
+</body>
+
+</html>
