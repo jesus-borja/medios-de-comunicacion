@@ -172,6 +172,7 @@ article ul {
 .card li {
   margin: 10px 0;
 }
+
 table {
   border: 1px solid #555;
   border-collapse: collapse;
@@ -193,11 +194,19 @@ td {
   text-align: center;
 }
 
+#conclusiones p {
+  margin: 10px 0;
+}
+#conclusiones img {
+  margin: 5px;
+}
+
 footer {
   padding: 1.5rem;
   display: flex;
   gap: 10px;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 footer ul {
