@@ -141,7 +141,7 @@ article {
   flex-direction: column;
   gap: 1.5rem;
   flex-wrap: wrap;
-  margin: 3rem 0;
+  margin: 2.5rem 0;
 }
 
 article ul {
@@ -220,7 +220,7 @@ footer ul {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .introduccion .text-img {
     flex-wrap: wrap;
     padding: 1rem;
