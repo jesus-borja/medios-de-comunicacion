@@ -27,8 +27,13 @@ body {
   max-width: 1200px;
   margin-inline: auto;
 }
+
 ul {
   list-style: none;
+}
+
+ul > * {
+  flex: 1;
 }
 
 nav {
