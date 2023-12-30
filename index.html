@@ -9,20 +9,23 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="img/ITP.png" alt="Logo del Instituto Tecnológico de Pachuca">
-                </a>
-            </li>
-            <li class="panel"><a href="#introduccion">Introducción</a></li>
-            <li class="panel"><a href="#clasificacion">Clasificación</a></li>
-            <li class="panel"><a href="#velocidad">Velocidad de Transmisión</a></li>
-            <li class="panel"><a href="#sentido">Según su sentido</a></li>
-            <li class="panel"><a href="#conclusiones">Conclusiones</a></li>
-            <li class="panel"><a href="#referencias">Referencias</a></li>
-        </ul>
+    <nav class="navbar">
+        <img class="logo-itp" src="img/ITP.png" alt="Logo del Instituto Tecnológico de Pachuca">
+        <a href="#" class="panel toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li class="panel navbar-link"><a href="#introduccion">Introducción</a></li>
+                <li class="panel navbar-link"><a href="#clasificacion">Clasificación</a></li>
+                <li class="panel navbar-link"><a href="#velocidad">Velocidades</a></li>
+                <li class="panel navbar-link"><a href="#sentido">Sentidos</a></li>
+                <li class="panel navbar-link"><a href="#conclusiones">Conclusiones</a></li>
+                <li class="panel navbar-link"><a href="#referencias">Referencias</a></li>
+            </ul>
+        </div>
     </nav>
     <header>
         <div class="integrantes">
@@ -414,6 +417,7 @@
         <p>Instituto Tecnológico de Pachuca</p>
         <p>Tecnológico Nacional de México</p>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
