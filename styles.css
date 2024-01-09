@@ -85,9 +85,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--text);
+  color: inherit;
   text-decoration: none;
-  scroll-margin-top: 50px;
   padding: 1rem;
 }
 
@@ -191,6 +190,7 @@ article {
   gap: 1.5rem;
   flex-wrap: wrap;
   margin-block: 2.5rem;
+  scroll-margin: 4rem;
 }
 
 article > * {
